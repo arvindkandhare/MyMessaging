@@ -1,0 +1,4 @@
+rootProject.name = 'MyMessaging'
+include 'Server'
+include 'Client'
+
