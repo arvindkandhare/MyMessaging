@@ -1,0 +1,14 @@
+
+.gradle/
+.idea/
+build/
+Client/build/
+Server/build/
+
+Client/build/classes/
+Client/build/dependency-cache/
+Client/build/tmp/compileJava/
+Would skip repository MyMessaging/
+Server/build/classes/
+Server/build/dependency-cache/
+Server/build/tmp/compileJava/
