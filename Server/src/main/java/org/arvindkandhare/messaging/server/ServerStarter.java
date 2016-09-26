@@ -19,7 +19,11 @@ import java.security.cert.CertificateException;
  */
 public class ServerStarter {
     static final boolean SSL = System.getProperty("ssl") != null;
-    static final int PORT = Integer.parseInt(System.getProperty("port", "8007"));
+    private int PORT = Integer.parseInt(System.getProperty("port", "8007"));
+
+    public ServerStarter(String hostName, int port) {
+        PORT = port;
+    }
 
     public void Start() throws CertificateException, InterruptedException, SSLException {
         // Configure SSL.
